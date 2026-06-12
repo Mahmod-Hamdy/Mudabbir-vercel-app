@@ -1,0 +1,61 @@
+/* Layout Out File For Responsive Design in all Screen📱💻 */
+
+/* breaking Point Design */
+/* xs */
+@media screen and (max-width:639px) {
+
+}
+/* s */
+@media (max-width: 768px) {
+    .page{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "hero-section"
+        "aside";
+    }
+    .aside{
+        display: none;
+    }
+    .hero-section{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header-profile"
+    "current-balance"
+    "income"
+    "expenses"
+    "new-activities"
+    "monthly-bills"
+    "table"
+    "budget"
+    "income-vs-expenses"
+    "payment-methods";
+}
+.hero-section .header-profile .inner-header-profile{
+    flex-direction: column;
+    gap:20px;
+}
+
+.logo-header,
+.profile{
+    width:100% !important;
+}
+.table{
+    overflow-x:auto;
+}
+
+table{
+    min-width:900px;
+}
+}
+/* md */
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
+/* lg */
+@media screen and (min-width:1025px) and (max-width:1280px){
+
+}
+/* xl */
+@media screen and (min-width:1281px){
+
+}
