@@ -13,6 +13,9 @@
         "hero-section"
         "aside";
     }
+    .hero-section .header-profile .inner-header-profile .logo-header .connect {
+    width: 22%;
+}
     .aside{
         display: none;
     }
